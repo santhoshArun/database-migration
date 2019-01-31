@@ -1,0 +1,18 @@
+my_port : 3306
+my_db_path : jdbc:mysql://localhost:
+my_db_name : eventlog
+
+my_username : root
+my_password : eventlog
+
+post_port : 33335
+post_db_path : jdbc:postgresql://localhost:
+post_db_name : mytopost
+
+post_username : postgres
+post_password : Stonebraker
+
+aes_key : t5Bk57P7gr8XSpju
+
+output : ..\\dump\\dumpfile.txt
+error : ..\\dump\\errorfile.txt
